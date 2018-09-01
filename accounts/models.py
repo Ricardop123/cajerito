@@ -3,10 +3,10 @@ from users.models import AccountHolder
 from uuid import uuid4
 
 ACCOUNT_TYPE = (
-	('c','Cheques'),
-	('n','Nomina'),
-	('a','Ahorro'),
-	('i','invercion')
+	('Cheques','Cheques'),
+	('Nomina','Nomina'),
+	('Ahorro','Ahorro'),
+	('invercion','invercion')
 )
 
 class Account(models.Model):
