@@ -1,1 +1,1 @@
-web
+web: gunicorn cajero.wsgi
